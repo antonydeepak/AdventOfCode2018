@@ -10,9 +10,6 @@ def project(point, velocity, time):
     displacement = (velocity[0]*time, velocity[1]*time)
     return (point[0]+displacement[0], point[1]+displacement[1])
 
-def is_cohesive(points):
-    pass
-
 def display(points, min_x, min_y, max_x, max_y):
     # print(min_x, max_x, min_y, max_y)
     for j in range(min_y, max_y+1):
