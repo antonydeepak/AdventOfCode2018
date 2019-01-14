@@ -1,0 +1,2 @@
+# Read the assembly and observe that only "eqrr 3 0 4" instruction checks for 0.
+# Run a simulation using 19.py and print the memory for 3
